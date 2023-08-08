@@ -19,13 +19,10 @@ pipeline {
                                 sshTransfer(
                                     sourceFiles: "index.html",
                                     remoteDirectory: "/var/www/html",
- 
-      )
-     ])
-   ])
- }
-}
+                                    )
+                                ])])
+            }
+        }
           
     }
 }
-
