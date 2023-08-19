@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             when {
-                beforeAgent true
-                branch "feature1"
+                branch 'main'
             }
             steps {
                 echo "Hello"                
