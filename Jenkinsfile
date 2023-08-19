@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             when {
-                git branch: 'main'
+                branch: 'main'
             }
             steps {
                 echo "Hello"                
