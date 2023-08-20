@@ -1,12 +1,13 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Example Deploy') {
             when {
-                branch 'main'
+                branch 'production'
             }
             steps {
-                echo "Hello"                
-        }          
+                echo 'Deploying'
+            }
+        }
     }
-}}
+}
