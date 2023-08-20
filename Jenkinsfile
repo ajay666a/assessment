@@ -2,9 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Example Deploy') {
-            // when {
-            //     branch 'production'
-            // }
+            when {
+                branch 'main'
+            }
             steps {
                 echo 'Deploying'
             }
