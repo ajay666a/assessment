@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example Deploy') {
             when {
-                branch 'main'
+                branch 'prod'
             }
             steps {
                 echo 'Deploying into main branch'
