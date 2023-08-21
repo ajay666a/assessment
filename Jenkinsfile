@@ -6,7 +6,7 @@ pipeline {
                 branch 'feature1'
             }
             steps {
-                echo "Hello"                
+                echo "Hello new"                
         }          
     }
 }}
